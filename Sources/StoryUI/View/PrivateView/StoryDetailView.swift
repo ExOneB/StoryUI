@@ -60,7 +60,7 @@ struct StoryDetailView: View {
 //                        messageView(with: index)
                     }
                 }
-                getEmojiView(story: story)
+//                getEmojiView(story: story)
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
             .overlay(
