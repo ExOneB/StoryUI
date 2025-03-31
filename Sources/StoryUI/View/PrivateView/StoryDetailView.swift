@@ -57,7 +57,7 @@ struct StoryDetailView: View {
                                         ? -Constant.MessageView.height : .zero
                                     )
                             )
-                        messageView(with: index)
+//                        messageView(with: index)
                     }
                 }
                 getEmojiView(story: story)
