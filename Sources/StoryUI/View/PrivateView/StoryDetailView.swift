@@ -195,12 +195,12 @@ private extension StoryDetailView {
     func tapStory() -> some View {
         HStack {
             Rectangle()
-                .fill(.black.opacity(0.01))
+                .fill(.white.opacity(0.001))
                 .onTapGesture {
                     tapPreviousStory()
                 }
             Rectangle()
-                .fill(.black.opacity(0.01))
+                .fill(.white.opacity(0.001))
                 .onTapGesture {
                     tapNextStory()
                 }
